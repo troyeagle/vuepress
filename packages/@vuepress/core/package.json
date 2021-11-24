@@ -1,6 +1,6 @@
 {
-  "name": "@vuepress/core",
-  "version": "1.8.2",
+  "name": "vuepress-core-with-concurrency-control",
+  "version": "0.0.1",
   "description": "Minimalistic doc generator with Vue component based layout system",
   "keywords": [
     "documentation",
@@ -70,8 +70,8 @@
   },
   "maintainers": [
     {
-      "name": "ULIVZ",
-      "email": "chl814@foxmail.com"
+      "name": "troyeagle",
+      "email": "troyeagledzh@gmail.com"
     }
   ]
 }

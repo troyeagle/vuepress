@@ -11,7 +11,9 @@
   <a href="https://discordapp.com/invite/HBherRA"><img src="https://img.shields.io/badge/Discord-join%20chat-738bd7.svg" alt="VuePress channel on Discord"></a>
 </p>
 
-# VuePress
+# VuePress-Concurrency
+
+A fork with concurrency control temporarily.
 
 :memo: Minimalistic Vue-powered static site generator
 

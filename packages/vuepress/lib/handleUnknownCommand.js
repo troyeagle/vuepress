@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-const { createApp } = require('@vuepress/core')
+const { createApp } = require('vuepress-core-with-concurrency-control')
 const { path, logger, globby, chalk } = require('@vuepress/shared-utils')
 const { isKnownCommand, CLI } = require('./util')
 const pwd = process.cwd()

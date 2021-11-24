@@ -7,7 +7,7 @@
 const { chalk } = require('@vuepress/shared-utils')
 const envinfo = require('envinfo')
 
-const { dev, build, eject } = require('@vuepress/core')
+const { dev, build, eject } = require('vuepress-core-with-concurrency-control')
 const { path, logger, env } = require('@vuepress/shared-utils')
 const { wrapCommand } = require('./util')
 
@@ -86,7 +86,7 @@ module.exports = function (cli, options) {
           npmGlobalPackages: ['vuepress'],
           npmPackages: [
             'vuepress',
-            '@vuepress/core',
+            'vuepress-core-with-concurrency-control',
             '@vuepress/theme-default'
           ]
         },

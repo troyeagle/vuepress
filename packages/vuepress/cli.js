@@ -13,7 +13,7 @@ const OPTIONS = {
 
 CLI({
   async beforeParse (cli) {
-    const pkg = require('@vuepress/core/package.json')
+    const pkg = require('vuepress-core-with-concurrency-control/package.json')
     checkEnv(pkg)
     updateNotifier({ pkg }).notify()
     registerCoreCommands(cli, OPTIONS)
